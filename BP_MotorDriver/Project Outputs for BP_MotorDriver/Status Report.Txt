@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [MotorDriverV0.PcbDoc]
+   Generated File[MotorDriverV0.TXT]
+   Generated File[MotorDriverV0.LDP]
+   Generated File[MotorDriverV0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 19:47:55 On 16/03/2018
