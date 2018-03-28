@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=BP_MotorDriver.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=Stencil
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -33,6 +33,8 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
+OutputMedium5=Stencil
+OutputMedium5_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
@@ -43,6 +45,7 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -52,11 +55,12 @@ OutputName2=Gerber Files
 OutputCategory2=Fabrication
 OutputDocumentPath2=MotorDriverV0.PcbDoc
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=1
 OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
@@ -65,14 +69,29 @@ OutputName3=NC Drill Files
 OutputCategory3=Fabrication
 OutputDocumentPath3=MotorDriverV0.PcbDoc
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=2
 OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+OutputType4=Gerber
+OutputName4=Stencil
+OutputCategory4=Fabrication
+OutputDocumentPath4=MotorDriverV0.PcbDoc
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=1
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973832~1,16973834~1,16777217~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [PublishSettings]
 OutputFilePath2=C:\Altium\Projects\BP_MotorDriver\BP_MotorDriver.pdf
@@ -152,6 +171,19 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
+OutputFilePath5=C:\Altium\Projects\BP_MotorDriver\Project Outputs for BP_MotorDriver\
+ReleaseManaged5=1
+OutputBasePath5=Project Outputs for BP_MotorDriver
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Custom]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=Stencil
+OutputFileName5=
+OutputFileNameMulti5=
+UseOutputNameForMulti5=1
+OutputFileNameSpecial5=
+OpenOutput5=0
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Altium\Projects\BP_MotorDriver\BP_MotorDriver.pdf
@@ -168,4 +200,14 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
+RelativeOutputPath5=C:\Altium\Projects\BP_MotorDriver\Project Outputs for BP_MotorDriver\
+OpenOutputs5=0
+AddToProject5=1
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
 
