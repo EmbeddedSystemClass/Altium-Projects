@@ -1,0 +1,17 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:58:47 On 4/04/2018
+
+Output: Mirrored Gerbers
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [AVR-TAG.PcbDoc]
+   Generated File[AVR-TAG.GBL]
+   Generated File[AVR-TAG.RUL]
+   Generated File[AVR-TAG.EXTREP]
+   Generated File[AVR-TAG.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:58:49 On 4/04/2018

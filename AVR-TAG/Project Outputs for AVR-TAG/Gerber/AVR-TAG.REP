@@ -1,0 +1,19 @@
+*************************************************************
+FileName = AVR-TAG.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Layer
+      File : AVR-TAG.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
